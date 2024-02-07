@@ -1,0 +1,809 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2DD1EDF4D51BDF1B787017CC /* Pods_HD_Wallpaper_HD_WallpaperUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E91088EF2F5614038FA2B88 /* Pods_HD_Wallpaper_HD_WallpaperUITests.framework */; };
+		5A0A0D092B7373D700525D14 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A0A0D042B73635500525D14 /* Photos.framework */; };
+		5A6573322B720FF000C8BB9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6573312B720FF000C8BB9B /* AppDelegate.swift */; };
+		5A6573342B720FF000C8BB9B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6573332B720FF000C8BB9B /* SceneDelegate.swift */; };
+		5A6573362B720FF000C8BB9B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6573352B720FF000C8BB9B /* ViewController.swift */; };
+		5A6573392B720FF000C8BB9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A6573372B720FF000C8BB9B /* Main.storyboard */; };
+		5A65733B2B720FF200C8BB9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A65733A2B720FF200C8BB9B /* Assets.xcassets */; };
+		5A65733E2B720FF200C8BB9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A65733C2B720FF200C8BB9B /* LaunchScreen.storyboard */; };
+		5A6573492B720FF200C8BB9B /* HD_WallpaperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6573482B720FF200C8BB9B /* HD_WallpaperTests.swift */; };
+		5A6573532B720FF200C8BB9B /* HD_WallpaperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6573522B720FF200C8BB9B /* HD_WallpaperUITests.swift */; };
+		5A6573552B720FF200C8BB9B /* HD_WallpaperUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6573542B720FF200C8BB9B /* HD_WallpaperUITestsLaunchTests.swift */; };
+		5A6573632B72100700C8BB9B /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A6573622B72100700C8BB9B /* icon.png */; };
+		5A6573652B7212A100C8BB9B /* WallpaperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6573642B7212A100C8BB9B /* WallpaperViewController.swift */; };
+		5A6573692B7218BF00C8BB9B /* search.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A6573682B7218BF00C8BB9B /* search.png */; };
+		5A65736B2B72198700C8BB9B /* FontAwesome.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5A65736A2B72198700C8BB9B /* FontAwesome.otf */; };
+		5A65736D2B72370900C8BB9B /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A65736C2B72370900C8BB9B /* ImageCollectionViewCell.swift */; };
+		5A6573712B72447600C8BB9B /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A6573702B72447600C8BB9B /* placeholder.png */; };
+		5A6573732B7273E600C8BB9B /* FullScareenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6573722B7273E600C8BB9B /* FullScareenViewController.swift */; };
+		743A389698C974D08D77E374 /* Pods_HD_Wallpaper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9633889A11B83C18B27E8AC1 /* Pods_HD_Wallpaper.framework */; };
+		89AC3385D231F1305F2DF05E /* Pods_HD_WallpaperTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4893871FDBAD47C1C871CA19 /* Pods_HD_WallpaperTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5A6573452B720FF200C8BB9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A6573262B720FF000C8BB9B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A65732D2B720FF000C8BB9B;
+			remoteInfo = "HD Wallpaper";
+		};
+		5A65734F2B720FF200C8BB9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A6573262B720FF000C8BB9B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A65732D2B720FF000C8BB9B;
+			remoteInfo = "HD Wallpaper";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1E91088EF2F5614038FA2B88 /* Pods_HD_Wallpaper_HD_WallpaperUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HD_Wallpaper_HD_WallpaperUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FA2AE9999AB2AF696E8A96E /* Pods-HD Wallpaper-HD WallpaperUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HD Wallpaper-HD WallpaperUITests.debug.xcconfig"; path = "Target Support Files/Pods-HD Wallpaper-HD WallpaperUITests/Pods-HD Wallpaper-HD WallpaperUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4893871FDBAD47C1C871CA19 /* Pods_HD_WallpaperTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HD_WallpaperTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A0A0D042B73635500525D14 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		5A65732E2B720FF000C8BB9B /* HD Wallpaper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HD Wallpaper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A6573312B720FF000C8BB9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5A6573332B720FF000C8BB9B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5A6573352B720FF000C8BB9B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5A6573382B720FF000C8BB9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5A65733A2B720FF200C8BB9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5A65733D2B720FF200C8BB9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5A65733F2B720FF200C8BB9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A6573442B720FF200C8BB9B /* HD WallpaperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HD WallpaperTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A6573482B720FF200C8BB9B /* HD_WallpaperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HD_WallpaperTests.swift; sourceTree = "<group>"; };
+		5A65734E2B720FF200C8BB9B /* HD WallpaperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HD WallpaperUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A6573522B720FF200C8BB9B /* HD_WallpaperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HD_WallpaperUITests.swift; sourceTree = "<group>"; };
+		5A6573542B720FF200C8BB9B /* HD_WallpaperUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HD_WallpaperUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5A6573622B72100700C8BB9B /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		5A6573642B7212A100C8BB9B /* WallpaperViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallpaperViewController.swift; sourceTree = "<group>"; };
+		5A6573682B7218BF00C8BB9B /* search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search.png; sourceTree = "<group>"; };
+		5A65736A2B72198700C8BB9B /* FontAwesome.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.otf; sourceTree = "<group>"; };
+		5A65736C2B72370900C8BB9B /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		5A6573702B72447600C8BB9B /* placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholder.png; sourceTree = "<group>"; };
+		5A6573722B7273E600C8BB9B /* FullScareenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScareenViewController.swift; sourceTree = "<group>"; };
+		745B0BB274BACCE7F251609A /* Pods-HD Wallpaper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HD Wallpaper.release.xcconfig"; path = "Target Support Files/Pods-HD Wallpaper/Pods-HD Wallpaper.release.xcconfig"; sourceTree = "<group>"; };
+		7FD4388B1C640CD5C74596AA /* Pods-HD Wallpaper-HD WallpaperUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HD Wallpaper-HD WallpaperUITests.release.xcconfig"; path = "Target Support Files/Pods-HD Wallpaper-HD WallpaperUITests/Pods-HD Wallpaper-HD WallpaperUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9633889A11B83C18B27E8AC1 /* Pods_HD_Wallpaper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HD_Wallpaper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBC564D5F83829E3E330E6AD /* Pods-HD WallpaperTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HD WallpaperTests.debug.xcconfig"; path = "Target Support Files/Pods-HD WallpaperTests/Pods-HD WallpaperTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C5E3752C809FAD1C81C0F82F /* Pods-HD WallpaperTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HD WallpaperTests.release.xcconfig"; path = "Target Support Files/Pods-HD WallpaperTests/Pods-HD WallpaperTests.release.xcconfig"; sourceTree = "<group>"; };
+		DF1C3ED882B50772CAA5C8B1 /* Pods-HD Wallpaper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HD Wallpaper.debug.xcconfig"; path = "Target Support Files/Pods-HD Wallpaper/Pods-HD Wallpaper.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A65732B2B720FF000C8BB9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				743A389698C974D08D77E374 /* Pods_HD_Wallpaper.framework in Frameworks */,
+				5A0A0D092B7373D700525D14 /* Photos.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A6573412B720FF200C8BB9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89AC3385D231F1305F2DF05E /* Pods_HD_WallpaperTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A65734B2B720FF200C8BB9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DD1EDF4D51BDF1B787017CC /* Pods_HD_Wallpaper_HD_WallpaperUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B998087BCE564E8A126D039 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DF1C3ED882B50772CAA5C8B1 /* Pods-HD Wallpaper.debug.xcconfig */,
+				745B0BB274BACCE7F251609A /* Pods-HD Wallpaper.release.xcconfig */,
+				3FA2AE9999AB2AF696E8A96E /* Pods-HD Wallpaper-HD WallpaperUITests.debug.xcconfig */,
+				7FD4388B1C640CD5C74596AA /* Pods-HD Wallpaper-HD WallpaperUITests.release.xcconfig */,
+				BBC564D5F83829E3E330E6AD /* Pods-HD WallpaperTests.debug.xcconfig */,
+				C5E3752C809FAD1C81C0F82F /* Pods-HD WallpaperTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5A6573252B720FF000C8BB9B = {
+			isa = PBXGroup;
+			children = (
+				5A6573302B720FF000C8BB9B /* HD Wallpaper */,
+				5A6573472B720FF200C8BB9B /* HD WallpaperTests */,
+				5A6573512B720FF200C8BB9B /* HD WallpaperUITests */,
+				5A65732F2B720FF000C8BB9B /* Products */,
+				3B998087BCE564E8A126D039 /* Pods */,
+				C284474EADBA9F64A85E593D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5A65732F2B720FF000C8BB9B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A65732E2B720FF000C8BB9B /* HD Wallpaper.app */,
+				5A6573442B720FF200C8BB9B /* HD WallpaperTests.xctest */,
+				5A65734E2B720FF200C8BB9B /* HD WallpaperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A6573302B720FF000C8BB9B /* HD Wallpaper */ = {
+			isa = PBXGroup;
+			children = (
+				5A6573312B720FF000C8BB9B /* AppDelegate.swift */,
+				5A6573332B720FF000C8BB9B /* SceneDelegate.swift */,
+				5A6573352B720FF000C8BB9B /* ViewController.swift */,
+				5A6573642B7212A100C8BB9B /* WallpaperViewController.swift */,
+				5A6573722B7273E600C8BB9B /* FullScareenViewController.swift */,
+				5A6573372B720FF000C8BB9B /* Main.storyboard */,
+				5A65733A2B720FF200C8BB9B /* Assets.xcassets */,
+				5A65733C2B720FF200C8BB9B /* LaunchScreen.storyboard */,
+				5A65733F2B720FF200C8BB9B /* Info.plist */,
+				5A65736A2B72198700C8BB9B /* FontAwesome.otf */,
+				5A6573612B720FFA00C8BB9B /* img */,
+				5A65736C2B72370900C8BB9B /* ImageCollectionViewCell.swift */,
+			);
+			path = "HD Wallpaper";
+			sourceTree = "<group>";
+		};
+		5A6573472B720FF200C8BB9B /* HD WallpaperTests */ = {
+			isa = PBXGroup;
+			children = (
+				5A6573482B720FF200C8BB9B /* HD_WallpaperTests.swift */,
+			);
+			path = "HD WallpaperTests";
+			sourceTree = "<group>";
+		};
+		5A6573512B720FF200C8BB9B /* HD WallpaperUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5A6573522B720FF200C8BB9B /* HD_WallpaperUITests.swift */,
+				5A6573542B720FF200C8BB9B /* HD_WallpaperUITestsLaunchTests.swift */,
+			);
+			path = "HD WallpaperUITests";
+			sourceTree = "<group>";
+		};
+		5A6573612B720FFA00C8BB9B /* img */ = {
+			isa = PBXGroup;
+			children = (
+				5A6573702B72447600C8BB9B /* placeholder.png */,
+				5A6573682B7218BF00C8BB9B /* search.png */,
+				5A6573622B72100700C8BB9B /* icon.png */,
+			);
+			path = img;
+			sourceTree = "<group>";
+		};
+		C284474EADBA9F64A85E593D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5A0A0D042B73635500525D14 /* Photos.framework */,
+				9633889A11B83C18B27E8AC1 /* Pods_HD_Wallpaper.framework */,
+				1E91088EF2F5614038FA2B88 /* Pods_HD_Wallpaper_HD_WallpaperUITests.framework */,
+				4893871FDBAD47C1C871CA19 /* Pods_HD_WallpaperTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A65732D2B720FF000C8BB9B /* HD Wallpaper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A6573582B720FF200C8BB9B /* Build configuration list for PBXNativeTarget "HD Wallpaper" */;
+			buildPhases = (
+				8226AF8AD129E1A172F08AE7 /* [CP] Check Pods Manifest.lock */,
+				5A65732A2B720FF000C8BB9B /* Sources */,
+				5A65732B2B720FF000C8BB9B /* Frameworks */,
+				5A65732C2B720FF000C8BB9B /* Resources */,
+				58A070CEB7B6C0505AD0E15C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HD Wallpaper";
+			productName = "HD Wallpaper";
+			productReference = 5A65732E2B720FF000C8BB9B /* HD Wallpaper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5A6573432B720FF200C8BB9B /* HD WallpaperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A65735B2B720FF200C8BB9B /* Build configuration list for PBXNativeTarget "HD WallpaperTests" */;
+			buildPhases = (
+				D0E484533B968EC6963FEE36 /* [CP] Check Pods Manifest.lock */,
+				5A6573402B720FF200C8BB9B /* Sources */,
+				5A6573412B720FF200C8BB9B /* Frameworks */,
+				5A6573422B720FF200C8BB9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A6573462B720FF200C8BB9B /* PBXTargetDependency */,
+			);
+			name = "HD WallpaperTests";
+			productName = "HD WallpaperTests";
+			productReference = 5A6573442B720FF200C8BB9B /* HD WallpaperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5A65734D2B720FF200C8BB9B /* HD WallpaperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A65735E2B720FF200C8BB9B /* Build configuration list for PBXNativeTarget "HD WallpaperUITests" */;
+			buildPhases = (
+				E0BBDAF0B423A0396969C138 /* [CP] Check Pods Manifest.lock */,
+				5A65734A2B720FF200C8BB9B /* Sources */,
+				5A65734B2B720FF200C8BB9B /* Frameworks */,
+				5A65734C2B720FF200C8BB9B /* Resources */,
+				E98552BB6EA6B7B5296A092A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A6573502B720FF200C8BB9B /* PBXTargetDependency */,
+			);
+			name = "HD WallpaperUITests";
+			productName = "HD WallpaperUITests";
+			productReference = 5A65734E2B720FF200C8BB9B /* HD WallpaperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A6573262B720FF000C8BB9B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					5A65732D2B720FF000C8BB9B = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					5A6573432B720FF200C8BB9B = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 5A65732D2B720FF000C8BB9B;
+					};
+					5A65734D2B720FF200C8BB9B = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 5A65732D2B720FF000C8BB9B;
+					};
+				};
+			};
+			buildConfigurationList = 5A6573292B720FF000C8BB9B /* Build configuration list for PBXProject "HD Wallpaper" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5A6573252B720FF000C8BB9B;
+			productRefGroup = 5A65732F2B720FF000C8BB9B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A65732D2B720FF000C8BB9B /* HD Wallpaper */,
+				5A6573432B720FF200C8BB9B /* HD WallpaperTests */,
+				5A65734D2B720FF200C8BB9B /* HD WallpaperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A65732C2B720FF000C8BB9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A6573692B7218BF00C8BB9B /* search.png in Resources */,
+				5A6573632B72100700C8BB9B /* icon.png in Resources */,
+				5A65736B2B72198700C8BB9B /* FontAwesome.otf in Resources */,
+				5A65733E2B720FF200C8BB9B /* LaunchScreen.storyboard in Resources */,
+				5A6573712B72447600C8BB9B /* placeholder.png in Resources */,
+				5A65733B2B720FF200C8BB9B /* Assets.xcassets in Resources */,
+				5A6573392B720FF000C8BB9B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A6573422B720FF200C8BB9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A65734C2B720FF200C8BB9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		58A070CEB7B6C0505AD0E15C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HD Wallpaper/Pods-HD Wallpaper-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HD Wallpaper/Pods-HD Wallpaper-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HD Wallpaper/Pods-HD Wallpaper-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8226AF8AD129E1A172F08AE7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HD Wallpaper-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0E484533B968EC6963FEE36 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HD WallpaperTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0BBDAF0B423A0396969C138 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HD Wallpaper-HD WallpaperUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E98552BB6EA6B7B5296A092A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HD Wallpaper-HD WallpaperUITests/Pods-HD Wallpaper-HD WallpaperUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HD Wallpaper-HD WallpaperUITests/Pods-HD Wallpaper-HD WallpaperUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HD Wallpaper-HD WallpaperUITests/Pods-HD Wallpaper-HD WallpaperUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A65732A2B720FF000C8BB9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A6573362B720FF000C8BB9B /* ViewController.swift in Sources */,
+				5A65736D2B72370900C8BB9B /* ImageCollectionViewCell.swift in Sources */,
+				5A6573322B720FF000C8BB9B /* AppDelegate.swift in Sources */,
+				5A6573342B720FF000C8BB9B /* SceneDelegate.swift in Sources */,
+				5A6573652B7212A100C8BB9B /* WallpaperViewController.swift in Sources */,
+				5A6573732B7273E600C8BB9B /* FullScareenViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A6573402B720FF200C8BB9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A6573492B720FF200C8BB9B /* HD_WallpaperTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A65734A2B720FF200C8BB9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A6573532B720FF200C8BB9B /* HD_WallpaperUITests.swift in Sources */,
+				5A6573552B720FF200C8BB9B /* HD_WallpaperUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A6573462B720FF200C8BB9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A65732D2B720FF000C8BB9B /* HD Wallpaper */;
+			targetProxy = 5A6573452B720FF200C8BB9B /* PBXContainerItemProxy */;
+		};
+		5A6573502B720FF200C8BB9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A65732D2B720FF000C8BB9B /* HD Wallpaper */;
+			targetProxy = 5A65734F2B720FF200C8BB9B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5A6573372B720FF000C8BB9B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A6573382B720FF000C8BB9B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5A65733C2B720FF200C8BB9B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A65733D2B720FF200C8BB9B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5A6573562B720FF200C8BB9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5A6573572B720FF200C8BB9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A6573592B720FF200C8BB9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF1C3ED882B50772CAA5C8B1 /* Pods-HD Wallpaper.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MY2QF5QP9K;
+				"EXCLUDED_ARCHS[sdk=*]" = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "HD Wallpaper/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.photography";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "We need access to your photo library to save images.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hdwallpaper.HD-Wallpaper";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5A65735A2B720FF200C8BB9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 745B0BB274BACCE7F251609A /* Pods-HD Wallpaper.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MY2QF5QP9K;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "HD Wallpaper/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.photography";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "We need access to your photo library to save images.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hdwallpaper.HD-Wallpaper";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5A65735C2B720FF200C8BB9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBC564D5F83829E3E330E6AD /* Pods-HD WallpaperTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MY2QF5QP9K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hdwallpaper.HD-WallpaperTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HD Wallpaper.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HD Wallpaper";
+			};
+			name = Debug;
+		};
+		5A65735D2B720FF200C8BB9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5E3752C809FAD1C81C0F82F /* Pods-HD WallpaperTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MY2QF5QP9K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hdwallpaper.HD-WallpaperTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HD Wallpaper.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HD Wallpaper";
+			};
+			name = Release;
+		};
+		5A65735F2B720FF200C8BB9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FA2AE9999AB2AF696E8A96E /* Pods-HD Wallpaper-HD WallpaperUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MY2QF5QP9K;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hdwallpaper.HD-WallpaperUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "HD Wallpaper";
+			};
+			name = Debug;
+		};
+		5A6573602B720FF200C8BB9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FD4388B1C640CD5C74596AA /* Pods-HD Wallpaper-HD WallpaperUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MY2QF5QP9K;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hdwallpaper.HD-WallpaperUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "HD Wallpaper";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A6573292B720FF000C8BB9B /* Build configuration list for PBXProject "HD Wallpaper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A6573562B720FF200C8BB9B /* Debug */,
+				5A6573572B720FF200C8BB9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A6573582B720FF200C8BB9B /* Build configuration list for PBXNativeTarget "HD Wallpaper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A6573592B720FF200C8BB9B /* Debug */,
+				5A65735A2B720FF200C8BB9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A65735B2B720FF200C8BB9B /* Build configuration list for PBXNativeTarget "HD WallpaperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A65735C2B720FF200C8BB9B /* Debug */,
+				5A65735D2B720FF200C8BB9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A65735E2B720FF200C8BB9B /* Build configuration list for PBXNativeTarget "HD WallpaperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A65735F2B720FF200C8BB9B /* Debug */,
+				5A6573602B720FF200C8BB9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5A6573262B720FF000C8BB9B /* Project object */;
+}

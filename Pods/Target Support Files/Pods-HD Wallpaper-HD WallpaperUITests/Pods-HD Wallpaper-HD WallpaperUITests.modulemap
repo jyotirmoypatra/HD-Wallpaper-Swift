@@ -1,0 +1,6 @@
+framework module Pods_HD_Wallpaper_HD_WallpaperUITests {
+  umbrella header "Pods-HD Wallpaper-HD WallpaperUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
